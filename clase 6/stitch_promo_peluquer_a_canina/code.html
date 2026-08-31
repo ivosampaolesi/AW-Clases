@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Paws &amp; Polish - Promoción de Peluquería Canina</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Work+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary": "#006876",
+                      "surface-dim": "#c7dde9",
+                      "on-secondary-container": "#55676f",
+                      "error": "#ba1a1a",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed": "#001f25",
+                      "surface-container": "#dbf1fe",
+                      "surface-container-low": "#e6f6ff",
+                      "tertiary-container": "#ff8b67",
+                      "surface-container-high": "#d5ecf8",
+                      "inverse-primary": "#44d8f1",
+                      "surface-tint": "#006876",
+                      "on-tertiary-fixed": "#3a0a00",
+                      "on-surface-variant": "#3c494c",
+                      "surface-bright": "#f3faff",
+                      "on-primary-container": "#004650",
+                      "surface": "#f3faff",
+                      "inverse-on-surface": "#dff4ff",
+                      "on-background": "#071e27",
+                      "on-error-container": "#93000a",
+                      "secondary-container": "#d2e6ef",
+                      "primary-container": "#00bcd4",
+                      "on-secondary-fixed": "#0b1e24",
+                      "on-primary-fixed-variant": "#004e59",
+                      "inverse-surface": "#1e333c",
+                      "surface-variant": "#cfe6f2",
+                      "on-tertiary-fixed-variant": "#852300",
+                      "secondary-fixed-dim": "#b6cad2",
+                      "tertiary-fixed": "#ffdbd0",
+                      "surface-container-highest": "#cfe6f2",
+                      "outline-variant": "#bbc9cc",
+                      "on-secondary": "#ffffff",
+                      "on-surface": "#071e27",
+                      "on-tertiary": "#ffffff",
+                      "tertiary": "#ac3509",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "error-container": "#ffdad6",
+                      "on-secondary-fixed-variant": "#374951",
+                      "on-tertiary-container": "#791f00",
+                      "tertiary-fixed-dim": "#ffb59f",
+                      "background": "#f3faff",
+                      "primary-fixed-dim": "#44d8f1",
+                      "outline": "#6c797c",
+                      "primary-fixed": "#a1efff",
+                      "secondary-fixed": "#d2e6ef",
+                      "secondary": "#4f6169"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "section-gap-desktop": "80px",
+                      "section-gap-mobile": "48px",
+                      "gutter": "24px",
+                      "base-unit": "8px",
+                      "container-max": "1200px",
+                      "margin-mobile": "16px"
+              },
+              "fontFamily": {
+                      "body-lg": ["Work Sans"],
+                      "label-md": ["Work Sans"],
+                      "body-md": ["Work Sans"],
+                      "caption": ["Work Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "headline-xl": ["Plus Jakarta Sans"],
+                      "headline-lg-mobile": ["Plus Jakarta Sans"]
+              },
+              "fontSize": {
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}],
+                      "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .soft-shadow { box-shadow: 0px 4px 20px rgba(0, 188, 212, 0.08); }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar Shared Component -->
+<header class="bg-surface dark:bg-surface-container-low docked full-width top-0 shadow-sm dark:shadow-none fixed w-full z-50 flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto left-0 right-0">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-container font-extrabold tracking-tight">
+            Paws &amp; Polish
+        </div>
+<nav class="hidden md:flex items-center gap-8">
+<!-- Active State Applied to Services -->
+<a class="font-label-md text-label-md text-primary border-b-2 border-primary pb-1 hover:text-primary dark:hover:text-primary-fixed-dim transition-colors opacity-80 transition-all duration-200" href="#">Services</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="#">Gallery</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="#">Pricing</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="#">Reviews</a>
+</nav>
+<button class="bg-primary hover:bg-on-primary-fixed-variant text-on-primary font-label-md text-label-md px-6 py-2 rounded-full transition-colors hidden md:block">
+            Book Now
+        </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[88px]">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-section-gap-mobile md:py-section-gap-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-6 order-2 lg:order-1">
+<div class="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full w-fit">
+<span class="material-symbols-outlined text-sm">stars</span>
+<span class="font-label-md text-label-md">Promoción Especial</span>
+</div>
+<h1 class="font-headline-lg-mobile md:font-headline-xl text-headline-lg-mobile md:text-headline-xl text-on-background">
+                        ¡Dale a tu mejor amigo el cuidado que merece!
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+                        Aprovecha nuestra promoción de temporada. Baños premium, cortes con estilo y todo el amor para que tu mascota salga luciendo increíble y sintiéndose relajada en nuestro ambiente libre de estrés.
+                    </p>
+<div class="mt-4">
+<a class="inline-block bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded-full shadow-[0px_4px_12px_rgba(0,104,118,0.2)] hover:bg-surface-tint hover:shadow-lg transition-all duration-300" href="#reservar">
+                            Reservar Turno
+                        </a>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 h-[300px] md:h-[500px] rounded-[32px] overflow-hidden soft-shadow">
+<img alt="" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtfLuF6hFmfXIc1FcxXzdq0TgShdxzbzaNhJCjwX-52lkbOWi2maeX24xlaKJP3dfLEZmTo17zvrTm0611u3tO1cLTVtBaa3IKcgOYF7vzAuloLMRx_XS9sZ_QWH8UhQxFy9cB1h5kk78XzfiH16CFA7CwtAz4CKJKZDvRNoTV2AZq7B-jImQy6UOC3XpRtdpBSUuCS22ltcl6R9pVB36qfxcXnrvEsJFsvdUXXuNbyE_lqEKPEwFKzQ"/>
+<!-- Decorative blob -->
+<div class="absolute -z-10 top-[-10%] right-[-10%] w-[120%] h-[120%] bg-surface-container-low rounded-full blur-3xl opacity-50"></div>
+</div>
+</div>
+</section>
+<!-- Services Section (Bento Grid) -->
+<section class="bg-surface-bright py-section-gap-mobile md:py-section-gap-desktop">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="text-center mb-12">
+<h2 class="font-headline-md text-headline-md text-on-background mb-4">Nuestros Servicios Premium</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">Detalles que marcan la diferencia. Utilizamos productos hipoalergénicos y técnicas de refuerzo positivo.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Service 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 soft-shadow hover:-translate-y-1 transition-transform duration-300 flex flex-col items-start border border-surface-variant">
+<div class="bg-secondary-container w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">bathtub</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-background mb-2 text-lg">Baño Premium</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Shampoo especializado, acondicionador hidratante y secado suave sin estrés.</p>
+</div>
+<!-- Service 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 soft-shadow hover:-translate-y-1 transition-transform duration-300 flex flex-col items-start border border-surface-variant">
+<div class="bg-secondary-container w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">content_cut</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-background mb-2 text-lg">Corte de Raza</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Estilismo profesional adaptado a los estándares de cada raza y a tus preferencias.</p>
+</div>
+<!-- Service 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 soft-shadow hover:-translate-y-1 transition-transform duration-300 flex flex-col items-start border border-surface-variant">
+<div class="bg-secondary-container w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">cut</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-background mb-2 text-lg">Corte de Uñas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Mantenimiento cuidadoso para prevenir molestias y asegurar la salud de sus patitas.</p>
+</div>
+<!-- Service 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 soft-shadow hover:-translate-y-1 transition-transform duration-300 flex flex-col items-start border border-surface-variant">
+<div class="bg-secondary-container w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">hearing</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-background mb-2 text-lg">Limpieza de Oídos</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Higiene delicada y profunda para mantener los oídos libres de infecciones.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Booking Form Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-section-gap-mobile md:py-section-gap-desktop" id="reservar">
+<div class="bg-surface-container-low rounded-[32px] p-8 md:p-12 soft-shadow grid grid-cols-1 lg:grid-cols-5 gap-12 items-center relative overflow-hidden">
+<!-- Decorative background elements -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-container rounded-full mix-blend-multiply filter blur-3xl opacity-30 transform translate-x-1/2 -translate-y-1/2"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-tertiary-container rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform -translate-x-1/2 translate-y-1/2"></div>
+<div class="lg:col-span-2 relative z-10">
+<h2 class="font-headline-md text-headline-md text-on-background mb-4">Agenda su cita de spa</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">Déjanos tus datos y nos pondremos en contacto contigo rápidamente para confirmar el turno.</p>
+<div class="hidden lg:block w-full h-48 rounded-2xl overflow-hidden mt-8 shadow-sm" data-alt="A serene, brightly lit dog grooming salon interior with clean white counters, light wood accents, and soft turquoise walls. Modern minimalist aesthetic, extremely clean and inviting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVEHVqXVI5BI-uDBsUo9vD6rcWRrSUISirOiIR0ZCjm2V7DzF8lkXq0M_FJ6TpjJi6sFeyIpkcrEJFjO9JhwhlvjeOz3hOfhwzsOslMhtBWT_P1JCJJrwOtQjERaIXIlclOGyu7HZLkZBrKD97AylsYk-uVaGg8eqX3vXWXRQ6u_l1hecAt4-vz-Hv2C1k98u_LXA45eP3353oWBbJM-ZxZJVroQHyq3MU2xP4Aza34EBxMZ6Qm7xL8Q')">
+</div>
+</div>
+<div class="lg:col-span-3 bg-surface rounded-2xl p-6 md:p-8 shadow-sm relative z-10">
+<form class="space-y-5">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Nombre del dueño</label>
+<input class="w-full bg-surface-bright border border-outline-variant text-body-md rounded-lg px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" placeholder="Ej. María Pérez" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Teléfono</label>
+<input class="w-full bg-surface-bright border border-outline-variant text-body-md rounded-lg px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" placeholder="+54 11 1234-5678" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Nombre del perro</label>
+<input class="w-full bg-surface-bright border border-outline-variant text-body-md rounded-lg px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" placeholder="Ej. Max" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Raza (Opcional)</label>
+<input class="w-full bg-surface-bright border border-outline-variant text-body-md rounded-lg px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" placeholder="Ej. Golden Retriever" type="text"/>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Fecha sugerida</label>
+<input class="w-full bg-surface-bright border border-outline-variant text-body-md rounded-lg px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors text-on-surface-variant" type="date"/>
+</div>
+<button class="w-full bg-primary text-on-primary font-label-md text-label-md py-4 rounded-full mt-4 hover:bg-surface-tint hover:shadow-md transition-all duration-200" type="submit">
+                            Solicitar Turno
+                        </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shared Component -->
+<footer class="bg-surface-container-highest dark:bg-inverse-surface w-full py-section-gap-desktop px-gutter flex flex-col md:flex-row justify-between items-center gap-base-unit max-w-container-max mx-auto mt-auto flat no shadows">
+<div class="flex flex-col items-center md:items-start gap-4">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-container">
+                Paws &amp; Polish
+            </div>
+<!-- Added specific request text -->
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Calle Falsa 123, Ciudad Canina</p>
+</div>
+<nav class="flex flex-wrap justify-center gap-6 my-6 md:my-0">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-colors" href="#">Contact Us</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-colors" href="#">Location</a>
+</nav>
+<div class="flex flex-col items-center md:items-end gap-4">
+<!-- Social Icons requested by user -->
+<div class="flex gap-4 text-primary">
+<a class="hover:opacity-80 transition-opacity" href="#"><span class="material-symbols-outlined">photo_camera</span></a> <!-- Representing IG -->
+<a class="hover:opacity-80 transition-opacity" href="#"><span class="material-symbols-outlined">thumb_up</span></a> <!-- Representing FB -->
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+                © 2024 Paws &amp; Polish Grooming. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>

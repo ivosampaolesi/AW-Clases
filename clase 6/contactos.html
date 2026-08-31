@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Contactos</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" aria-label="Vinculo al inicio">
+            <img src="./recursos/imagenes/cuidado-de-mascotas.png" alt="Logo Huellitas">
+        </a>
+        <nav>
+            <a href="./index.html">
+                Inicio
+            </a>
+            <a href="./contactos.html">
+                Contactos
+            </a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contactos</h1>
+        <h2>Escribinos</h2>
+        <form action="./contactos.html" method="post">
+
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+
+            <label for="id-email">Email</label>
+            <input type="email" name="email" id="id-email">
+
+            <label for="id-tipo-mascota">Tipo mascota</label>
+            <select name="tipo-mascota" id="id-tipo-mascota">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="loro">Loro</option> 
+            </select>
+
+
+            <label for="id-comentarios">Comentarios</label>
+            <textarea name="comentarios" id="id-comentarios"></textarea>
+
+            <button type="submit">Enviar </button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+        <h2>Donde estamos</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6907177290873!2d-64.18688462511764!3d-31.422646296552728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2855b960457%3A0x142b558b74457ccb!2sRondeau%20165%2C%20X5000AVC%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1788179979377!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </main>
+    
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/Huellitas">
+                    @Huellitas                    
+                </a>
+            </li>
+            <li>
+               Rondeu 165, Cordoba capital 
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
