@@ -1,0 +1,38 @@
+body{
+    background-color:lightblue;
+}
+header{
+    background-color: #cccccc;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+/*.vinculos{
+    color: red;
+}*/
+
+.vinculos a {
+    color: red;
+}
+/*------------------------------------------------------*/
+.encabezado-principal{
+    background-color: lightslategray;
+}
+.encabezado-principal.vinculos a {
+    color: red;
+}
+/*------------------------------------------------------*/
+.contenido-principal{
+    background-color: lightgrey;
+}
+/*------------------------------------------------------*/
+.pie-principal{
+    background-color: lightslategray;
+
+}
+/*------------------------------------------------------*/
