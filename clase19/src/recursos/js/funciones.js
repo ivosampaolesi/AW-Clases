@@ -19,7 +19,7 @@ function renderizarCatalogo(contenedor, productos) {
             Precio $ ${producto.precio}
         </li>
     </ul>
-    <button class='boton-agregar-producto'>Añadir al carro</button>
+    <button class='boton-agregar-producto' data-id="${producto.id}">Añadir al carro</button>
 </article>
     `
     })

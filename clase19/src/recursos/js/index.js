@@ -28,7 +28,8 @@ botonEvento.addEventListener('click', (evento)=> {
  //console.log(botonesProducto)
 
 botonesProducto.forEach((boton)=>{
-    botonesProducto.addEventListener('click', (evento)=> {
-        console.log('se agrego el producto')
+    boton.addEventListener('click', (evento)=> {
+        const idProducto = parseInt(boton.dataset.id)
+        console.log(idProducto)
     })
 })
